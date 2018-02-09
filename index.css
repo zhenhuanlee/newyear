@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: fantasy;
+  background-color: #FFFFFF;
+}
+
+#address-submit, #address-input {
+  height: 40px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: fantasy;
+  font-size: 1em;
+  border: none;
+  border-bottom: 1px black solid;
+}
+
+#address-input {
+  width: 800px;
+  padding-left: 10px;
+}
+
+#address-submit{
+  width: 80px;
+  cursor: pointer;
+}
+
+.address-block {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(217, 239, 215, 0.5);
+  margin: 20px 3.33%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*justify-content: flex-start;*/
+  align-content: flex-start;
+}
+
+.color-block {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  z-index: 10000;
+}
+
+.address-container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*justify-content: flex-start;*/
+  align-content: flex-start;
+}
